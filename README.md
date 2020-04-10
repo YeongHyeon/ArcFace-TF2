@@ -2,7 +2,7 @@
 =====
 
 ## Related Repositories
-<a href="https://github.com/YeongHyeon/ResNet-TF2">ResNeXt-TF2</a>  
+<a href="https://github.com/YeongHyeon/ResNet-TF2">ResNet-TF2</a>  
 
 ## Concept
 <div align="center">
