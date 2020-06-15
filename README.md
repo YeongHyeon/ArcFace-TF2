@@ -9,6 +9,11 @@
   <img src="./figures/arcface.png" width="700">  
   <p>Concept and Pseudo-code of ArcFace [1].</p>
 </div>
+<div align="center">
+  <p><img src="./figures/fig1.png" width="700"></p>
+  <p><img src="./figures/fig2.png" width="300"></p>   
+  <p>Concept and Pseudo-code of ArcFace [1].</p>
+</div>
 
 ## Performance
 
