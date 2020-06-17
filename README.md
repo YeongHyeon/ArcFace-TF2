@@ -18,35 +18,35 @@
 
 |Indicator|Value|
 |:---|:---:|
-|Accuracy|0.98100|
-|Precision|0.98101|
-|Recall|0.98083|
-|F1-Score|0.98090|
+|Accuracy|0.99490|
+|Precision|0.99482|
+|Recall|0.99486|
+|F1-Score|0.99483|
 
 ```
 Confusion Matrix
-[[ 961    1    2    0    2    2    5    4    2    1]
- [   2 1118    4    1    0    0    4    6    0    0]
- [   1    1 1020    2    0    0    0    7    1    0]
- [   1    0    3  995    0    4    2    1    2    2]
- [   0    0    1    0  965    0    2    2    3    9]
- [   1    1    0   10    1  871    4    2    1    1]
- [   7    2    3    2    6    1  936    0    1    0]
- [   1    2    9    1    0    0    1 1012    1    1]
- [   1    0    8    0    2    4    1    3  949    6]
- [   1    1    1    2    7    4    1    8    1  983]]
-Class-0 | Precision: 0.98463, Recall: 0.98061, F1-Score: 0.98262
-Class-1 | Precision: 0.99290, Recall: 0.98502, F1-Score: 0.98894
-Class-2 | Precision: 0.97050, Recall: 0.98837, F1-Score: 0.97936
-Class-3 | Precision: 0.98223, Recall: 0.98515, F1-Score: 0.98369
-Class-4 | Precision: 0.98169, Recall: 0.98269, F1-Score: 0.98219
-Class-5 | Precision: 0.98307, Recall: 0.97646, F1-Score: 0.97975
-Class-6 | Precision: 0.97908, Recall: 0.97704, F1-Score: 0.97806
-Class-7 | Precision: 0.96842, Recall: 0.98444, F1-Score: 0.97636
-Class-8 | Precision: 0.98751, Recall: 0.97433, F1-Score: 0.98088
-Class-9 | Precision: 0.98006, Recall: 0.97423, F1-Score: 0.97714
+[[ 978    0    0    0    0    0    0    2    0    0]
+ [   0 1132    1    1    0    0    0    1    0    0]
+ [   0    0 1031    0    0    0    0    1    0    0]
+ [   1    0    1 1000    0    6    0    1    1    0]
+ [   0    0    1    0  978    0    0    0    0    3]
+ [   1    0    0    2    0  888    1    0    0    0]
+ [   5    2    0    0    0    0  951    0    0    0]
+ [   0    0    1    0    0    0    1 1024    1    1]
+ [   3    0    0    2    0    0    1    0  967    1]
+ [   0    0    0    0    7    2    0    0    0 1000]]
+Class-0 | Precision: 0.98988, Recall: 0.99796, F1-Score: 0.99390
+Class-1 | Precision: 0.99824, Recall: 0.99736, F1-Score: 0.99780
+Class-2 | Precision: 0.99614, Recall: 0.99903, F1-Score: 0.99758
+Class-3 | Precision: 0.99502, Recall: 0.99010, F1-Score: 0.99256
+Class-4 | Precision: 0.99289, Recall: 0.99593, F1-Score: 0.99441
+Class-5 | Precision: 0.99107, Recall: 0.99552, F1-Score: 0.99329
+Class-6 | Precision: 0.99686, Recall: 0.99269, F1-Score: 0.99477
+Class-7 | Precision: 0.99514, Recall: 0.99611, F1-Score: 0.99562
+Class-8 | Precision: 0.99794, Recall: 0.99281, F1-Score: 0.99537
+Class-9 | Precision: 0.99502, Recall: 0.99108, F1-Score: 0.99305
 
-Total | Accuracy: 0.98100, Precision: 0.98101, Recall: 0.98083, F1-Score: 0.98090
+Total | Accuracy: 0.99490, Precision: 0.99482, Recall: 0.99486, F1-Score: 0.99483
 ```
 
 ## Requirements
