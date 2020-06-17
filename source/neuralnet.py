@@ -1,4 +1,5 @@
 import os
+import numpy as np
 import tensorflow as tf
 import source.layers as lay
 
@@ -22,7 +23,8 @@ class CNN(object):
     def step(self, x, y, iteration=0, train=False):
 
         with tf.GradientTape() as tape:
-            logits = self.arcface(self.model(x, verbose=False), y)
+            if(train): logits = self.arcface(self.model(x, verbose=False), y)
+            else: logits = self.arcface(self.model(x, verbose=False), np.ones_like(y))
             smce = tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=logits)
             loss = tf.math.reduce_mean(smce)
 
